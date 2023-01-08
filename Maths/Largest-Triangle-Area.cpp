@@ -27,3 +27,5 @@ We can use the formula area = 0.5 * a * b * sin(C) and
         return ans;
     }
 };
+
+// Time Complexity: O(N^3)
