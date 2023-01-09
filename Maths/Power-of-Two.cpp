@@ -9,3 +9,5 @@ public:
         
     }
 };
+
+// o(log2^n)
