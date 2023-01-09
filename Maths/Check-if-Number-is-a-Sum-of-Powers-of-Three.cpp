@@ -12,3 +12,5 @@ bool checkPowersOfThree(int n) {
         return false;
 }
 };
+//Time complexity: O(n)
+//Space complexity: O(1)
