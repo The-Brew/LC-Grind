@@ -23,5 +23,5 @@ public:
     }
 };
 
-//Time Complexity: O(N),N = size of the array. As i traverse the whole array once.
-// Space complexity: O(N), As i save the result of every child in a separate array.
+//Time Complexity: O(N)= size of the array. As i traverse the whole array once.
+// Space complexity: O(N) As i save the result of every child in a separate array.
