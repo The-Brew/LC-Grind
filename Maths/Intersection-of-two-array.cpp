@@ -18,3 +18,6 @@ vector<int> intersect(vector<int>& nums1, vector<int>& nums2) {
     }
     return vector<int>(nums1.begin(),nums1.begin()+k);
 }
+
+//Time Complexity: O(n+m)
+//Space Complexity: O(min(n,m))
