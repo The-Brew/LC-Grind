@@ -30,3 +30,6 @@ public:
         return result;
     }
 };
+
+//Time compleity : O(n)
+//Space complexity :O(1)
