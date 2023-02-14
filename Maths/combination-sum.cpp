@@ -1,4 +1,3 @@
-
 #include <bits/stdc++.h>
 using namespace std;
 void backtrack(vector<vector<int>> &output, vector<int> &current, vector<int> &candidates, int remain, int start){
