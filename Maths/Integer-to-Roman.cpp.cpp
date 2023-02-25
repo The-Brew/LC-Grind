@@ -2,29 +2,23 @@
 using namespace std;
 
 class Solution {
-    public int findPeakElement(int[] nums) {
-        int low = 0;
-        int high = nums.length-1;
-        
-        while(low < high){
-            
-            int mid = (low+high)/2;
-            if(nums[mid] > nums[mid+1]){
-                
-                high = mid;
-                
-                
-            }
-            else
-                low = mid+1;
-            
-            
+public:
+    string intToRoman(int num) {
+            vector<string> romans({"I", "IV", "V", "IX", "X", "XL", "L", "XC", "C", "CD", "D", "CM", "M"});
+    vector<int> value({1, 4, 5, 9, 10, 40, 50, 90, 100, 400, 500, 900, 1000});
+    int seqSize = romans.size();
+    int idx = seqSize - 1;
+    string ans = "";
+    while(num>0){
+        while(value[idx]<=num){
+            ans += romans[idx];
+            num -= value[idx];
         }
-        return low;
-        
-        
+        idx--;
     }
-}
+    return ans;
+    }
+};
 
-//Time Complexity: O(LogN)
-//Space Complexity : O(1)
+// Time complexity: O(1)
+// Space complexity: O(1)
