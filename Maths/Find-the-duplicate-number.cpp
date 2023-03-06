@@ -14,6 +14,10 @@ public:
 
         } while(slow!=fast);
         fast=nums[0];
+        
+       /*  Floid algo now we take a slow ptr at inital and move both slow and newslow at same pase they would be the meeting point .
+   To save space instead of using new slow i am using fast only in place of it.
+ Return slow */
         while(slow!=fast)
         {
             slow=nums[slow];
